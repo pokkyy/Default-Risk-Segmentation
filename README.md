@@ -1,15 +1,15 @@
 # Credit Card Default Risk Segmentation
-> This project aims to predict the probability of credit card default and segment customers by risk, highlighting the features associated with high-risk clients.
+> Predict and segment credit card clients by default risk to enable proactive management.
 
-This project predicts credit card default probabilities and segments clients by risk level. Beyond a simple "yes" or "no", it highlights which features make someone high-risk, helping decision-makers act before a payment problem occurs.
+This project predicts credit card default probabilities and segments clients by risk level. Beyond a simple yes/no prediction, it highlights which features make someone high-risk, helping decision-makers act before a payment problem occurs.
 
 # 📚 Data Gathering and Preparation
 - The default of credit card clients data was collected from the UCI Machine Learning Repository (https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients)
-- Contains 25 features including the monthly repayment status, the monthly bill amount statement, demographic information as well as the default paymemt status.
-- Encoded features were remapped to better interpreat the value during exploratory data analysis
+- Contains 25 features including the monthly repayment status, the monthly bill amount statement, demographic information as well as the default payment status.
+- Encoded features were remapped for easier interpretation during exploratory analysis.
 
-# 🔍 Exploratory Daa Analysis (EDA)
-An EDA is first conducted to analyse the distribution of the dataset. Notably, the dataset has an imbalance distribution of default payments.
+# 🔍 Exploratory Data Analysis (EDA)
+The dataset was first explored in a high-level fashion in order to gain a base understanding of the distribution in the dataset. Notably, the dataset has an imbalance distribution of default payments.
 The dataset consists of predominantly females, individuals with at least a university level of education, and individuals who are single. In terms of age, the median found is at 34.
 
 # 🔬 Data Modelling
@@ -59,7 +59,7 @@ Using the predicted default probabilities, clients are segmented based on the th
 - Low risk: probability < 0.60
 - High risk: probability ≥ 0.60
 
-The findings showcase that a majority of those at a higher risk of default are women, those with a univeristy education, and married individuals.
+The findings showcase that a majority of those at a higher risk of default are women, those with a university education, and married individuals.
 
 # 🔑 Key Takeaways
 - Repayment behavior is the most important driver of default risk.
