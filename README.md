@@ -30,13 +30,13 @@ Performance at optimal threshold (0.60):
 | --- | --- |
 | Non-default | 0.80 |
 | Default | 0.54 |
-| Overall accuracy: 0.81 |
+Overall accuracy: 0.81
 
 Note: Thresholds were tuned to prioritize correctly identifying defaulters, which is critical in credit risk management.
 
 ## ⭐ Feature Importance
-| Top 10 Feature importance |
-| --- |
+Top 10 Features:
+
 | Feature | Importance |
 | --- | --- |
 | PAY_0 | 0.083389 |
