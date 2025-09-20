@@ -66,3 +66,13 @@ The findings showcase that a majority of those at a higher risk of default are w
 - Demographics like marital status provide additional predictive power.
 - Threshold tuning allows us to segment clients smartly – it’s not perfect, but it’s actionable and allows for a more targeted approach
 - Predicted probabilities enable prioritization within risk groups, which is more actionable than binary predictions alone.
+
+  # 📌 Power BI Dashboard
+## Overall Summary
+![Summary Dashboard](dashboard/PBI_CreditCardDefault_Summary.png)
+
+## High Risk Segment
+![Summary Dashboard](dashboard/PBI_CreditCardDefault_HighRisk.png)
+
+## Low Risk Segment
+![Summary Dashboard](dashboard/PBI_CreditCardDefault_LowRisk.png)
